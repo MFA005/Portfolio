@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    
+    @apply bg-secondary;
+    @apply bg-radial-gradient-l from-accent/20 via-transparent to-transparent bg-no-repeat;
+  }
+
+
