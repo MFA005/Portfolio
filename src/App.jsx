@@ -4,13 +4,20 @@ import { Intro, About, Contact } from './data'
 
 const App = () => {
   return (
-    <div className="bg-secondary min-h-screen" >
-      <Intro />
-      <div className="w-full border-t border-2 border-white/80 "></div>
-      <About />
-      <div className="w-full border-t border-2 border-white/80 "></div>
-      <Contact />
-    </div>
+    <div className="bg-secondary h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
+  <div className="snap-center snap-always">
+    <Intro />
+  </div>
+  <div className="w-full border-t border-2 border-white/80"></div>
+  <div className="snap-center snap-always">
+    <About />
+  </div>
+  <div className="w-full border-t border-2 border-white/80"></div>
+  <div className="snap-center snap-always">
+    <Contact />
+  </div>
+</div>
+
   )
 }
 

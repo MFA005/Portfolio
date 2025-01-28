@@ -12,7 +12,7 @@ const Intro = () => {
   return (
     <section
       ref={refIntro}
-      className={`relative min-h-screen bg-radial-gradient-l from-accent/30 via-transparent to-transparent bg-no-repeat bg-secondary transition-opacity duration-1500 ${
+      className={`relative snap-start min-h-screen xl:h-screen bg-radial-gradient-l from-accent/30 via-transparent to-transparent bg-no-repeat bg-secondary transition-opacity duration-1500 ${
         isVisibleIntro ? "opacity-100" : "opacity-0"
       }`}
     >
@@ -34,7 +34,7 @@ const Intro = () => {
             {"</h1>"}
           </span>
         </h1>
-        <button>yooo</button>
+        <button></button>
         <div className="mt-20 flex justify-center items-center mb-20 md:m-auto h-40 ">
           <span
             ref={refSkills}

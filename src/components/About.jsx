@@ -1,9 +1,7 @@
 import { React, useRef } from "react";
 import { useIsVisible } from "../data";
 
-// A short bio about who you are, your expertise, and your goals.
-// Highlight your background, education, and interests.
-// Include a fun fact or personal touch (e.g., hobbies, values, or motivations).
+
 
 const About = () => {
 
@@ -11,7 +9,7 @@ const refAbout = useRef(null);
   const isVisibleAbout = useIsVisible(refAbout);
 
   return (
-    <div className="relative bg-dual-gradient ">
+    <div className="relative snap-start min-h-screen bg-dual-gradient ">
       {/* Background Glow */}
       
 

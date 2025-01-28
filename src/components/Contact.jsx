@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div ref={refContact} className={`flex flex-col justify-around items-center xl:flex-row xl:gap-52 bg-radial-gradient-b from-accent/40 via-transparent to-transparent mx-auto min-h-screen transition-opacity duration-1500 ${
+    <div ref={refContact} className={`snap-start flex flex-col justify-around items-center xl:flex-row xl:gap-52 bg-radial-gradient-b from-accent/40 via-transparent to-transparent mx-auto min-h-screen transition-opacity duration-1500 ${
         isVisibleContact ? "opacity-100" : "opacity-0"
       }`}>
       <div className="flex flex-col justify-center items-start mt-15 m-16">
@@ -70,7 +70,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <div className=" flex flex-col mt-32 mr-32">
+      <div className=" flex flex-col mt-32 mr-20 xl:mr-36">
       <div className="flex mb-10">
         <img className="w-14" src="src/assets/Message_alt_fill.svg" alt="" />
         <span className="text-xl pt-3 pl-5 font-ShareTech tracking-widest text-white">mfahmed005@gmail.com</span>
