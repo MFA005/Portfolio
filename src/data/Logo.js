@@ -4,5 +4,8 @@ import Css from "../assets/css-3.svg";
 import JavaScript from "../assets/javascript-1.svg";
 import Mongodb from "../assets/mongodb-icon-2.svg";
 import ReactLogo from "../assets/react-2.svg";
+import Phone from "../assets/Phone_fill.svg";
+import Pin from "../assets/Phone_fill.svg";
+import Phone from "../assets/Phone_fill.svg";
 
 export { CSharp, Html, Css, JavaScript, Mongodb, ReactLogo };
