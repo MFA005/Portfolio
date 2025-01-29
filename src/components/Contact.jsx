@@ -72,15 +72,15 @@ const Contact = () => {
       </div>
       <div className=" flex flex-col mt-32 mr-20 xl:mr-36">
       <div className="flex mb-10">
-        <img className="w-14" src="src/assets/Message-alt-fill.svg" alt="" />
+        <img className="w-14" src="src/assets/message-alt-fill.svg" alt="" />
         <span className="text-xl pt-3 pl-5 font-ShareTech tracking-widest text-white">mfahmed005@gmail.com</span>
       </div>
       <div className="flex mb-10">
-        <img className="w-14" src="src/assets/Pin-fill.svg" alt="" />
+        <img className="w-14" src="src/assets/pin-fill.svg" alt="" />
         <span className="text-xl pt-3 pl-5 font-ShareTech tracking-widest text-white">Kitchener, Ontario</span>
       </div>
       <div className="flex mb-10">
-        <img className="w-14" src="src/assets/Phone-fill.svg" alt="" />
+        <img className="w-14" src="src/assets/phone-fill.svg" alt="" />
         <span className="text-xl pt-3 pl-5 font-ShareTech tracking-widest text-white">(416) 881-5667</span>
       </div>
       </div>
