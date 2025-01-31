@@ -88,7 +88,7 @@ const Contact = () => {
       {isPopupVisible && (
         <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center">
           
-          <div className="bg-red-700 font-ShareTech xl:font-bold xl:tracking-widest xl:text-xl text-white text-center rounded-lg p-6 xl:p-9 shadow-lg">
+          <div className="bg-purple-700 font-ShareTech xl:font-bold xl:tracking-widest xl:text-xl text-white text-center rounded-lg p-6 xl:p-9 shadow-lg">
             Email Sent! 
           </div>
         </div>

@@ -50,7 +50,7 @@ function PortfolioItem({ title, imgUrl, stack, description, githubLink, reverse 
 
         {/*github button*/}
       <div className='flex m-10 mt-5 md:mt-10 p-4 w-40 border-2 rounded-full md:hover:scale-[105%] transition-all duration-100 bg-black/40 border-yellow-300/50 hover:border-yellow-300 cursor-pointer content-center justify-around' onClick={() => window.open(githubLink, "_blank")}>
-        <img src={GithubLogo}  alt="github logo" className='md:w-[20% md:h-[15%] sm:w-[20%] sm:h-[15%] w-[20%] h-[20%] cursor-pointer z-[60] transition-all duration-160' />
+        <img src={GithubLogo}  alt="github logo" className='md:w-[20% md:h-[15%] sm:w-[20%] sm:h-[15%] w-[20%] h-[20%] cursor-pointer  transition-all duration-160' />
         <span className='text-yellow-300 font-ShareTech font-extrabold tracking-widest mr-2 '>GitHub</span>
         </div>       
       </div>
