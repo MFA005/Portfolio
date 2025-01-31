@@ -1,6 +1,6 @@
 import { useRive } from '@rive-app/react-canvas'
 import IconsAnimation from '../assets/icons.riv'
-import { CSharp, Html, Css, JavaScript, Mongodb, ReactLogo } from '../data/Logo.js'
+import { CSharp, Html, Css, JavaScript, Mongodb, ReactLogo } from '../data/image.js'
 import {useIsVisible} from '../data/index.js';
 import { useRef } from 'react';
 

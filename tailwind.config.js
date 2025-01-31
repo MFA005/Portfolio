@@ -24,6 +24,7 @@ export default {
         'radial-gradient-l': 'radial-gradient(circle at left,var(--tw-gradient-stops))',
         'radial-gradient-b': 'radial-gradient(ellipse at bottom,var(--tw-gradient-stops))',
         'dual-gradient': 'radial-gradient(circle at top left, var(--tw-gradient-stops))',
+        'radial-both': "radial-gradient(circle at bottom right, var(--tw-gradient-stops))",
       }, 
       letterSpacing: {
         'wider-than-wide': '0.4em', 

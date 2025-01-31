@@ -1,5 +1,5 @@
 import React from 'react'
-import { Intro, About, Contact } from './data'
+import { Intro, About, Contact, Portfolio } from './data'
 
 
 const App = () => {
@@ -11,6 +11,10 @@ const App = () => {
   <div className="w-full border-t border-2 border-white/80"></div>
   <div className="snap-center snap-always">
     <About />
+  </div>
+  <div className="w-full border-t border-2 border-white/80"></div>
+  <div className="snap-center snap-always">
+    <Portfolio />
   </div>
   <div className="w-full border-t border-2 border-white/80"></div>
   <div className="snap-center snap-always">

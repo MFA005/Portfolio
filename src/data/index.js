@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 export { default as Intro } from '../components/Intro';
 export { default as About } from '../components/About.jsx';
 export { default as Contact } from '../components/Contact.jsx';
+export { default as Portfolio } from '../components/Portfolio.jsx';
 
 export function useIsVisible(ref){
     const [isIntersecting, setIsIntersecting] = useState(false);
