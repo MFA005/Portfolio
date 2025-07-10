@@ -12,7 +12,10 @@ import ArduinoGif from "../assets/Arduino-led.gif"
 import PortfolioGif from "../assets/portfolio-gif.gif";
 import CourseApp from "../assets/course-management-app.png";
 import ArrowFullscreen from "../assets/arrow-fullscreen.png";
-import GithubLogo from "../assets/GitHub_logo.png";
+import GithubLogoYellow from "../assets/GitHub_logo_yellow.png";
+import GithubLogoGreen from "../assets/GitHub_logo_green.png";
+import LinkedInLogo from "../assets/LinkedIn_logo.png";
+import OpenPage from "../assets/Vector402.svg"
+import DesignLogos from "../assets/bglogos.png"
 
-
-export { CSharp, Html, Css, JavaScript, Mongodb, ReactLogo, Phone, Message, Pin, GhostBusterGif, ArduinoGif, PortfolioGif, CourseApp, ArrowFullscreen, GithubLogo };
+export { DesignLogos, OpenPage, LinkedInLogo, CSharp, Html, Css, JavaScript, Mongodb, ReactLogo, Phone, Message, Pin, GhostBusterGif, ArduinoGif, PortfolioGif, CourseApp, ArrowFullscreen, GithubLogoYellow, GithubLogoGreen };
