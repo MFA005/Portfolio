@@ -9,7 +9,7 @@ function Portfolio() {
         
         <span
             
-            className={`text-white mb-24 text-3xl md:text-4xl font-ShareTech tracking-wider-than-wide z-50 font-bold `}
+            className={`text-white mb-24 text-3xl md:text-4xl font-ShareTech tracking-wider-than-wide z-50 font-bold items-center text-center`}
           >
             PROJECTS
           </span>

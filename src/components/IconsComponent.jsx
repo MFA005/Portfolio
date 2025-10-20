@@ -31,33 +31,43 @@ const isVisibleMongodb = useIsVisible(refMongodb);
 
     return (
       <div >
-      <RiveComponent className='xl:flex hidden w-[650px] h-[650px]'/>
-     
+      <div
+        className="xl:flex hidden w-[650px] h-[650px]  xxl:w-[900px] xxl:h-[900px] items-center justify-center"
+        role="img"
+        aria-label="Animated skill icons representing HTML, CSS, JavaScript, C#, React and MongoDB"
+      >
+        <RiveComponent className="w-full h-full" />
+        {/* screenreader longer descriptions if needed */}
+        <span className="sr-only">
+          This animation visually highlights skills: HTML, CSS, JavaScript, C#, React and MongoDB.
+        </span>
+      </div>
+
       <div className="flex justify-center items-center ">
       <div className='xl:hidden flex flex-col md:grid md:grid-cols-2 md:gap-y-24 md:pl-28 gap-14 pl-10'> 
         <div ref={refHtml} className={`flex transition-opacity ease-in duration-700 ${isVisibleHtml ? "opacity-100" : "opacity-0"}`}> 
       <img src={Html} alt="html logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>HTML</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>HTML</span>
         </div>
         <div ref={refCss} className={`flex transition-opacity ease-in duration-700 ${isVisibleCss ? "opacity-100" : "opacity-0"}`}> 
       <img src={Css} alt="css logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>CSS</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>CSS</span>
         </div>
         <div ref={refJavaScript} className={`flex transition-opacity ease-in duration-700 ${isVisibleJavaScript ? "opacity-100" : "opacity-0"}`}> 
       <img src={JavaScript} alt="javascript logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>JS</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>JS</span>
         </div>
         <div ref={refCSharp} className={`flex transition-opacity ease-in duration-700 ${isVisibleCSharp ? "opacity-100" : "opacity-0"}`}> 
       <img src={CSharp} alt="csharp logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>C#</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>C#</span>
         </div>
         <div ref={refReact} className={`flex transition-opacity ease-in duration-700 ${isVisibleReact ? "opacity-100" : "opacity-0"}`}> 
       <img src={ReactLogo} alt="react logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>REACT</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech'>REACT</span>
         </div>
         <div ref={refMongodb} className={`mb-20 flex transition-opacity ease-in duration-700 ${isVisibleMongodb ? "opacity-100" : "opacity-0"}`}> 
       <img src={Mongodb} alt="mongodb logo" className='w-16 h-16 md:w-20 md:h-20' />
-      <span className='pl-10 pt-2 text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech z-10'>MONGODB</span>
+      <span className='md:pl-10 pl-4 pt-2 text-base md:text-2xl font-bold tracking-wider-than-wide text-white font-ShareTech z-10'>MONGODB</span>
         </div>
         </div>
       </div>

@@ -5,7 +5,16 @@
 body {
     
     @apply bg-secondary;
-    @apply bg-radial-gradient-l from-accent/20 via-transparent to-transparent bg-no-repeat;
+    @apply bg-radial-gradient-l from-accent/20 via-transparent to-transparent bg-no-repeat overflow-x-hidden scroll-smooth;
   }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
+/* Hide scrollbar for Firefox */
+
+html {
+  scrollbar-width: none;
+  @apply scroll-smooth;
+}
