@@ -1,8 +1,7 @@
 import { React, useRef } from "react";
 import IconsComponent from "./IconsComponent";
 import { useIsVisible } from "../data/index.js";
-import { GithubLogoGreen } from '../data/image';
-import { LinkedInLogo } from "../data/image";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const Intro = () => {
@@ -46,35 +45,32 @@ const Intro = () => {
                border-2 rounded-lg bg-black/40 border-primary/50 
                hover:border-primary hover:bg-black/60 
                cursor-pointer transition-all duration-200 min-w-0"
-             onClick={() => window.open(githubProfile, "_blank")}
-           >
-             <img
-               src={GithubLogoGreen}
-               alt="github logo"
-               className="w-5 h-5 md:w-6 md:h-6 xxl:w-10 xxl:h-10 object-contain opacity-80 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"
-             />
+            onClick={() => window.open(githubProfile, "_blank")}
+          >
+            <FaGithub
+              className="w-6 h-6 hover:opacity-70 transition duration-300 text-white"
+            />
+
             <span className="text-white font-ShareTech font-semibold tracking-wide opacity-80 group-hover:opacity-100 transition-all duration-200 whitespace-nowrap overflow-hidden text-sm md:text-base xxl:text-2xl">
-               GitHub
-             </span>
-           </div>
- 
-           {/* LinkedIn */}
-           <div
+              GitHub
+            </span>
+          </div>
+
+          {/* LinkedIn */}
+          <div
             className="group inline-flex items-center gap-2 md:gap-3 xxl:gap-6 px-4 py-2 md:px-6 md:py-3 xxl:px-10 xxl:py-6
                border-2 rounded-lg bg-black/40 border-primary/50 
                hover:border-primary hover:bg-black/60 
                cursor-pointer transition-all duration-200 min-w-0"
-             onClick={() => window.open(linkedinProfile, "_blank")}
-           >
-             <img
-               src={LinkedInLogo}
-               alt="linkedin logo"
-               className="w-5 h-5 md:w-6 md:h-6 xxl:w-10 xxl:h-10 object-contain opacity-80 group-hover:opacity-100 transition-all duration-200 flex-shrink-0"
-             />
+            onClick={() => window.open(linkedinProfile, "_blank")}
+          >
+            <FaLinkedin
+              className="w-6 h-6 hover:opacity-70 transition duration-300 text-white"
+            />
             <span className="text-white font-ShareTech font-semibold tracking-wide opacity-80 group-hover:opacity-100 transition-all duration-200 whitespace-nowrap overflow-hidden text-sm md:text-base xxl:text-2xl">
-               LinkedIn
-             </span>
-           </div>
+              LinkedIn
+            </span>
+          </div>
         </div>
         <div className="mt-20 flex justify-center items-center mb-20 md:m-auto h-40 ">
           <span
